@@ -1,0 +1,28 @@
+{
+  "name": "college-events-app",
+  "version": "1.0.0",
+  "description": "College events with public registration and admin-only management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^9.6.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.1",
+    "helmet": "^7.0.0",
+    "joi": "^17.13.3",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
